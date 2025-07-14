@@ -1,0 +1,63 @@
+{
+  "events": [
+    {
+      "id": "4903",
+      "name": "Fiesta de Lisa",
+      "description": "Cumpleaños de lisa",
+      "capacity": "0",
+      "date": "2025-07-31"
+    },
+    {
+      "id": "0825",
+      "name": "Fiesta de ana",
+      "description": "Cumpleaños de ana",
+      "capacity": "300",
+      "date": "2025-08-10"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "isAdmin": true,
+      "user": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "9567",
+      "isAdmin": false,
+      "user": "sharon",
+      "password": "sharon123",
+      "email": "sharon@gmail.com"
+    },
+    {
+      "id": "9522",
+      "isAdmin": true,
+      "user": "sebas",
+      "password": "sebas123",
+      "email": "sebas@gmail.com"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "3aec",
+      "name": "Fiesta de Lisa",
+      "nameReservation": "sharon",
+      "numberReservation": "1234567890",
+      "quantity": "150"
+    },
+    {
+      "id": "3b67",
+      "name": "Fiesta de Lisa",
+      "nameReservation": "Ana maria",
+      "numberReservation": "1234567890",
+      "quantity": "140"
+    },
+    {
+      "id": "9b9d",
+      "name": "Fiesta de Lisa",
+      "nameReservation": "Andres",
+      "numberReservation": "1234567890",
+      "quantity": "10"
+    }
+  ]
+}

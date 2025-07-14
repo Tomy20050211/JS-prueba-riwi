@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="./app/style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div>
+                <div class="title">Events manegement</div>
+
+                <div id="profile">
+                    <img src="./app/img/7e19c64c4e6891a96a65fca78258958c45a20f87.png" alt="Profile Image">
+                    <h3>Random guy</h3>
+                    <p id="administrator">Administrator</p>
+                    <p id="visitor">Visitor</p>
+                </div>
+
+                <nav id="nav">
+                    <a  href="/reservations" data-link><i class="fas fa-dollar-sign"></i>Enrollement's list</a>
+                    <a href="/events" data-link onclick="showEvents()"><i class="fas fa-user-graduate"></i>Events</a>
+                </nav>
+            </div>
+            <div class="logout">
+                <button id="close-session">Cerrar sesión</button>
+            </div>
+        </aside>
+
+        <main id="content"></main>
+    </div>
+</body>
+<script src="./index.js" defer></script>
+
+</html>
