@@ -1,5 +1,8 @@
 # Event Management SPA
-
+- Tomas salazar Ruiz
+- Gosling
+- 1036449536
+- tomasruiz1104@gmail.com
 This is a simple JavaScript-based Single Page Application (SPA) for managing events. It includes route handling, global variable declarations, and utility functions for navigation and ID generation.
 
 ## 📁 File Structure
